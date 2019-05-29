@@ -21,7 +21,9 @@ module.exports = function main(x) {
 	  } else {
 		out_str2 += '._.  ';
 	  }		
-	  if (str[i] == ((0 || 6) || 8)){
+	  if (str[i] == (6 || 8)){
+		out_str3 += '|_|  ';
+	  }else if (str[i] == 0){
 		out_str3 += '|_|  ';
 	  }else if (str[i] == 2){
 		out_str3 += '|_.  ';
