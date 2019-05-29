@@ -1,4 +1,36 @@
-module.exports = function main() {
-    console.log("Debug Info");
-    return 'Hello World!';
+module.exports = function main(x) {
+    str = String(x);
+	out_str1 = '';
+	out_str2 = '\n';
+	out_str3 = '\n';
+	for (i = 0; i<str.length;i++){
+		if (str[i] = (1 || 4)){
+			out_str1 += '...  ';
+		}else {
+			out_str1 += '._.  ';
+		}
+		
+		if (str[i] = 0){
+			out_str2 += '|.|  ';
+		}else if {str[i] = (1 || 7)){
+			out_str2 += '..|  ';
+		}else if {str[i] = (2 || 3)){
+			out_str2 += '._|  ';
+		}else if {str[i] = (5 || 6)){
+			out_str2 += '|_.  ';
+		}else {
+			out_str2 += '|_|  ';
+		}
+		
+		if (str[i] = ((0 || 6) || 8){
+			out_str2 += '|_|  ';
+		}else if {str[i] = 2){
+			out_str2 += '|_.  ';
+		}else if {str[i] = (3 || 5)){
+			out_str2 += '._|  ';
+		}else {
+			out_str2 += '..|  ';
+	}
+	out_str = out_str1 + out_str2 + out_str3
+	console.log(out_str);
 };
