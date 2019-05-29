@@ -11,7 +11,7 @@ module.exports = function main(x) {
 	  }
 	  
 	  if (str[i] == 0) {
-		out_str2 += '|.|.  ';
+		out_str2 += '|.|  ';
 	  }else if (str[i] == (1 || 7)){
 		out_str2 += '..|  ';	  
 	  }else if (str[i] == (2 || 3)){
