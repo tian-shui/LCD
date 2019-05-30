@@ -4,7 +4,9 @@ module.exports = function main(x) {
 	out_str2 = '\n';
 	out_str3 = '\n';
 	for (i = 0; i < str.length;i++){
-	  if (str[i] == (1 || 4)) {
+	  if (str[i] == 1) {
+		out_str1 += '...  ';
+	  } else if (str[i] == 4) {
 		out_str1 += '...  ';
 	  } else {
 		out_str1 += '._.  ';
@@ -12,22 +14,32 @@ module.exports = function main(x) {
 	  
 	  if (str[i] == 0) {
 		out_str2 += '|.|  ';
-	  }else if (str[i] == (1 || 7)){
-		out_str2 += '..|  ';	  
-	  }else if (str[i] == (2 || 3)){
+	  }else if (str[i] == 1){
+		out_str2 += '..|  ';
+	  }else if (str[i] == 7){
+		out_str2 += '..|  ';
+	  }else if (str[i] == 2){
 		out_str2 += '._|  ';
-	  }else if (str[i] == (5 || 6)){
-		out_str2 += '|_.  ';	  
+	  }else if (str[i] == 3){
+		out_str2 += '._|  ';
+	  }else if (str[i] == 5){
+		out_str2 += '|_.  ';
+	  }else if (str[i] == 6){
+		out_str2 += '|_.  ';
 	  } else {
-		out_str2 += '._.  ';
+		out_str2 += '|_|  ';
 	  }		
-	  if (str[i] == (6 || 8)){
+	  if (str[i] == 6){
 		out_str3 += '|_|  ';
+	  }else if (str[i] == 8){
+		out_str3 += '|_|  ';		  
 	  }else if (str[i] == 0){
 		out_str3 += '|_|  ';
 	  }else if (str[i] == 2){
 		out_str3 += '|_.  ';
-	  }else if (str[i] == (3 || 5)){
+	  }else if (str[i] == 3){
+		out_str3 += '._|  ';
+	  }else if (str[i] == 5){
 		out_str3 += '._|  ';
 	  }else {
 		out_str3 += '..|  ';
