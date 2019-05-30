@@ -50,4 +50,5 @@ module.exports = function main(x) {
 	out_str3 = out_str3.slice(0,-1) + '\n';
 	out_str = out_str1 + out_str2 + out_str3;
 	console.log(out_str);
+	return 'Hello World!';
 };
