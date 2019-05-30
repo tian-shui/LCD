@@ -1,8 +1,8 @@
 module.exports = function main(x) {
     str = String(x);
 	out_str1 = '';
-	out_str2 = '';
-	out_str3 = '';
+	out_str2 = '\n';
+	out_str3 = '\n';
 	for (i = 0; i < str.length;i++){
 	  if (str[i] == 1) {
 		out_str1 += '...';
